@@ -1,0 +1,214 @@
+.header {
+	height: 25%;
+	display: table;
+	color: #34ebdb;
+}
+
+.js-weather {
+	width: 30%;
+	display: table-cell;
+	font-family: monospace;
+	font-size: 18px;
+	color: #34ebdb;
+	vertical-align: middle;
+	padding-left: 10%;
+}
+
+.js-clock {
+	font-family: "Times New Roman";
+	font-size: 100px;
+	margin: 0;
+	padding: 0;
+	color: #34ebdb;
+}
+
+.js-date {
+	font-family: "Times New Roman";
+	font-size: 40px;
+	margin: 0;
+	padding: 0;
+	color: #34ebdb;
+}
+
+.js-greetings {
+	font-family: monospace;
+	font-size: 45px;
+	color: #34ebdb;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	height: 50%;
+	width: 100%;
+	position: static;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+.padd1 {
+	height: 50px;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	position: static;
+}
+
+.padd2 {
+	height: 10px;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	position: static;
+}
+
+.padd3 {
+	height: 30px;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	position: static;
+}
+
+body {
+	background-color: black;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 100px;
+	color: #34ebdb;
+	transition: color 0.5s ease-in-out;
+}
+
+.clicked {
+	color: #7F8C8D;
+}
+
+button {
+	width: 30px;
+	height: 30px;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    padding-left: 10px;
+}
+
+.form {
+	display: none;
+}
+
+.showing {
+	display: block;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.bgImage {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	animation: fadeIn 0.5s linear;
+}
+
+.inputName {
+	border: 1px solid #34ebdb;
+	border-radius: 0px;
+	height: 30px;
+	width: 300px;
+	font-family: monospace;
+	color: #34ebdb;
+	background-color: rgba(0, 0, 0, 0);
+	padding: 5px;
+}
+
+.inputName::placeholder {
+	font-family: monospace;
+	color: #34ebdb;
+}
+
+.inputToDos {
+	border: 1px solid #34ebdb;
+	border-radius: 0px;
+	height: 30px;
+	width: 300px;
+	font-family: monospace;
+	color: #34ebdb;
+	background-color: rgba(0, 0, 0, 0);
+	padding: 5px;
+}
+
+.inputToDos::placeholder {
+	font-family: monospace;
+	color: #34ebdb;
+}
+
+.js-toDoList {
+	font-family: monospace;
+	color: #34ebdb;
+	width: 20%;
+}
+
+ul {
+	list-style-image: url(images/marker.png);
+	list-style: none;
+	vertical-align: middle;
+	width: 300px;
+  	margin-left: auto;
+  	margin-right: auto;
+
+}
+
+li {
+	background: url(images/marker.png) left center no-repeat;
+	padding-left: 25px;
+	text-align: left;
+	font-size: 15px;
+	vertical-align: middle;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+input:focus::-moz-placeholder {
+  color: transparent;
+}
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+input:focus::-ms-input-placeholder {
+  color: transparent;
+}
+
+
+
+
+
+
